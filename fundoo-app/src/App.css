@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* login page */
+
+.paper-style-login{
+  width: 400px;
+  height: 450px;
+}
+.login-layout{
+  margin: auto;
+  padding: 20px 20px 0px 20px;
+  color: rgb(58, 58, 59);
+}
+.login-div{
+  /* margin-left: 450px; */
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+.login-button{
+  background-color: #fb0;
+}
+.login-form{
+  padding: 0px 20px 0px 20px;
+  text-decoration:none;
+  
+}
+
+/* register page */
+
+.paper-style-register{
+  width: 450px;
+  height: 600px;
+}
+
+/* reset password */
+
+.paper-style-resetpassword{
+  width: 450px;
+  height: 300px;
+}
+.toolbar-div{
+  background-color: #fb0;
+}
+
+/* navbar */
+
+.search{
+  background:rgba(0,0,0,0.04);
+  display: -webkit-inline-box;
+  position: relative;
+  display:flex;
+  margin: 15px 15px 15px 15px;
+  width: 760px;
+  height: 46px;
+  padding-top: 0px;
+}
+
+.searchIcon{
+  padding: 4px 0 7px 15px;
+  justifyContent: center;
+}
+
+.searchInput{
+  width: 616px;
+  height: 36px;
+  padding-left: 20px;
+  justifyContent: center;
+}
+
+/* side bar */
+
+.sidebar-style{
+  width: 240px;
+}
